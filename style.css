@@ -1,0 +1,378 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+/* ///////////////section-1///////////////// */
+.seca{
+    display: block;
+    border: 1px solid lightgray;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 3vh 6vw;
+    border-top: 4px solid lightgrey;
+    position: fixed;
+    background-color: #fff;
+    height: 70px;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+.seca h2{
+    font-size: 3vmax;
+    font-family: sans-serif;
+    font-weight: 800;
+    font-style: italic;
+    cursor: pointer;
+
+}
+.seca p{
+    font-size: 2vmax;
+    font-style: oblique;
+    color: blue;
+    cursor: pointer;
+}
+/* <!-- ////////////////section02//////////////// --> */
+.secb{
+    background-image: url('image/image (1).jpg');
+    background-size: 100%;
+    background-position:100% 25%;
+    background-repeat: no-repeat;
+    margin-top: 70px;
+    background-color: green;
+    width: 100%;
+    height: 40vw;
+    position: relative;
+}
+
+
+
+.imagesecb{
+    border: 5px solid  honeydew;
+    display: inline-block;
+    position: absolute;
+    bottom: -4vmax;
+    left: 40px;
+    width: 11vmax;
+    height: 12vmax;
+    border-radius: 110%;
+
+
+}
+.imagesecb img{
+    width: 100%;
+    height: 100%;
+    border-radius: 110%;
+}
+.icona{
+    background-color: lightgray;  
+    position: absolute;
+    color: black;
+    bottom: 1.5vmax;
+    right: -1vmax;
+    border: 3px solid honeydew;
+    border-radius: 100%;
+    width: 2.9vmax;
+    height: 2.9vmax;
+    cursor: pointer;
+
+}
+.icona ,.fas{
+    font-size: 1.7vmax;
+    text-align: center;
+    margin: 3px 2px ;
+}
+/* <!-- ////////////////section03//////////////// --> */
+.secc{
+    margin: 60px auto;
+    width: 95%;
+}
+.btn{
+    padding: 1vmax 2vmax;
+    display: flex;
+    gap: 30vw;
+    
+
+}
+.secc h1{
+    margin:25px 0;
+    font-size: 2.5vw;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    margin-left: 1.5vw;
+
+}
+
+.secc button{
+    text-decoration: none;
+    color: black;
+    padding: 0.5vw 1.5vw;
+    border-radius: 6px;
+    font-size: 1.4vw;
+    font-weight: 600;
+    border:none;
+    background-color: rgb(201, 201, 201);
+    cursor: pointer;
+}
+.secc button:first-child{
+    color: #fff;
+    background-color: blue;
+}
+.subSecc{
+    margin: 18px 0  0  0.5vw  ;
+}
+.subSecc h4{
+    margin: 15px 0;
+    font-size: 1.5vmax;
+    font-weight: 500 ;
+}
+.subSecc span{
+    font-weight: 900;
+    font-size: 1.6vmax;
+}
+.subSecc i{
+    margin: 0 1.2vw;
+}
+/* <!-- ////////////////section05//////////////// --> */
+.secd{
+    width: 92%;
+    margin:  auto;
+
+
+}
+.head{
+    display: flex;
+    gap: 69vw;
+    margin-left:5vw ;
+}
+.head h3{
+    font-weight: 600;
+    font-size: 2vmax;
+}
+.head  p{
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 1.4vmax;
+    cursor: pointer;
+}
+.head >h3{
+    color: blue;
+    cursor: pointer;
+
+}
+.imagesecd{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2.6vw;
+    margin: 30px 3vw;   
+}
+.imagesubsec{
+    /* border: 2px solid red; */
+    flex-basis:20%;
+    height: 220px;
+}
+.imagesubsec img{
+    width: 90%;
+    height: 70%;
+    border-radius: 12px;
+    margin-bottom: 1vmax;
+
+}
+.secdbtn{
+    width: 100%;
+    margin:  40px  0 ;
+    display: flex;
+    flex-direction: row;
+    gap: 27vw;
+    padding: 20px 0 ;
+    padding-left: 9vw;
+    border-width: 3px 0;
+    border-color: gray;
+    border-style: solid;
+
+
+}
+.secdbtn button{
+    color: black;
+    padding: 0.5vw 1.6vw;
+    border-radius: 6px;
+    font-size: 1.6vw;
+    font-weight: 800;
+    border:none;
+    background-color: rgb(201, 201, 201);
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+/* <!-- ///////////Section E/////////////////////////// --> */
+.post{
+    width: 70%;
+    margin: -25px auto;
+    margin-bottom: 10px;
+}
+.post h2{
+    font-size: 2vmax;
+    font-weight: 800 ;
+    margin-left: 1vmax;
+}
+.postHead{
+    padding: 5px;
+    display: flex;
+    gap: 7vmax;
+}
+.postHead img{
+    border: 4px solid  rgb(167, 165, 165);
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+
+}
+
+
+input{
+    border: none;
+    background-color: lightgray;
+    height: 2.8vmax;
+    padding: -0  9vw;
+    font-size: 1.5vmax;
+    font-weight: 600;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 25px;
+
+}
+.galeryIcon{
+    margin-top: 20px;
+}
+/* <!-- ///////////Section F/////////////////////////// --> */
+.secF{
+    width: 60%;
+    margin:  auto;
+}
+.heading{
+    display: flex;
+    padding: 20px 30px ;
+    gap: 12vmax;
+}
+.heading h4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.4vmax;
+    font-weight: 500;
+    padding: 8px 0;
+    padding-right: 40px;
+    border-right: 1px solid gray;
+}
+.horizentalRow{
+    width: 100%;
+    background-color:  gray;
+    height: 4px;
+    margin: 20px 0;
+}
+/* <!-- ///////////Section G/////////////////////////// --> */
+
+.postSection{
+    width: 68%;
+    margin: 10px auto;
+}
+.postSection{
+    display: flex;
+    gap: 1vmax;
+}
+.PostSecImage{
+    border: 4px solid  rgb(167, 165, 165);
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    position: relative;
+}
+.PostSecImage img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
+}
+.active{
+    position: absolute;
+    background-color: lawngreen;   
+    width: 1vmax;
+    height: 1vmax;
+    border-radius: 50px;
+    bottom: 7px;
+    right: -3px;
+
+}
+.HeadingG{
+    margin-top: 14px;
+}
+.HeadingG h2{
+    font-family: sans-serif;
+    padding-bottom: 4px;
+}
+/* <!-- ///////////Section E/////////////////////////// --> */
+.freindPost{
+    padding-top: 10px;
+    width: 55%;
+    margin: auto;
+}
+.imageE{
+    border: 4px solid  blue;
+
+}
+.postSectionE{
+    border-width: 1px 1px 0 1px ;
+    border-color: gray;
+    border-style:solid ;
+    padding: 10px;
+
+}
+.imageE img{
+    width: 90%;
+    height: 90%;
+    border-radius: 50px;
+    margin: 5%;
+}
+.freindPost h2{
+    font-size: 1.4vmax;
+}
+.freindPost p{
+    font-size: 1.2vmax;
+}
+.pra{
+    margin: 20px 20px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5vmax;
+}
+.SetImage img {
+    width: 90%;
+    border-radius: 3px;
+    height: 80vh;
+    margin-left: 30px;
+
+}
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
